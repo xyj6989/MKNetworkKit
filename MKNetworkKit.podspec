@@ -19,8 +19,7 @@ Pod::Spec.new do |s|
     s.author       = 'MugunthKumar'
     s.source       = { :git => "https://github.com/xyj6989/MKNetworkKit.git"}
     s.platform     = :ios
-    s.source_files = 'MKNetworkKit/*.{h,m}'
-    s.source_files = 'MKNetworkKit/Categories/*.{h,m}'
+    s.source_files = 'MKNetworkKit/*.{h,m}', 'MKNetworkKit/Categories/*.{h,m}'
     s.dependency 'Reachability'
     
 
