@@ -20,5 +20,13 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/xyj6989/MKNetworkKit.git"}
     s.platform     = :ios
     s.source_files = 'MKNetworkKit/*.{h,m}'
+    
+  s.subspec 'Categories' do |ss|
+    ss.source_files = 'MKNetworkKit/Categories/*.{h,m}'
+  end
+  
+  s.subspec 'Reachability' do |ss|
+    ss.source_files = 'MKNetworkKit/Reachability/*.{h,m}'
+  end
 
 end
