@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
         ss.source_files = 'MKNetworkKit/Categories/*.{h,m}'
     end
     
-    s.dependency 'Categories'
+    s.dependency 'MKNetworkKit/Categories'
     
 
 end
