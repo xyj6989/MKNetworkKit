@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/xyj6989/MKNetworkKit.git"}
     s.platform     = :ios
     s.source_files = 'MKNetworkKit/*.{h,m}', 'MKNetworkKit/Categories/*.{h,m}'
+    s.ios.frameworks = 'CFNetwork', 'Security'
     s.dependency 'Reachability'
     
 
